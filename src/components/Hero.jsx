@@ -1,7 +1,5 @@
 import { ArrowIcon } from './icons'
-
-const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80'
+import HERO_IMAGE from '../assets/couverture.png'
 
 export default function Hero() {
   return (
