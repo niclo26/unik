@@ -1,3 +1,5 @@
+import logo from '../assets/logoUnik.png'
+
 const COLUMNS = [
   {
     title: 'Navigation',
@@ -14,7 +16,7 @@ export default function Footer() {
     <footer className="bg-charcoal py-12 text-white/70">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 sm:grid-cols-3 lg:px-10">
         <div>
-          <img src="/logoUnik.png" alt="Construction Unik inc." className="h-16 w-auto" />
+          <img src={logo} alt="Construction Unik inc." className="h-16 w-auto" />
           <p className="mt-3 max-w-xs text-sm">
             Construction résidentielle clé en main depuis 20 ans.
           </p>

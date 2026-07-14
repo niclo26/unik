@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from '../assets/logoUnik.png'
 
 const NAV_LINKS = [
   { label: 'Réalisations', href: '#realisations' },
@@ -16,7 +17,7 @@ export default function Header() {
     <header className="absolute inset-x-0 top-0 z-30">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
         <a href="#">
-          <img src="/logoUnik.png" alt="Construction Unik inc." className="h-16 w-auto" />
+          <img src={logo} alt="Construction Unik inc." className="h-16 w-auto" />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">
